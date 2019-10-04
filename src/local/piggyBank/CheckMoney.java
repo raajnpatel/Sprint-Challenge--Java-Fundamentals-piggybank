@@ -1,6 +1,5 @@
 package local.piggyBank;
 
-public class CheckMoney
-{
-
+public interface CheckMoney {
+    boolean test(Money m);
 }
